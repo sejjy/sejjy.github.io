@@ -40,6 +40,8 @@ a:hover {
 	text-decoration-color: #e6edf3;
 }
 
+section:has(a[href="#contact"]:active) a:link,
+section:has(a[href="#contact"]:active) a:visited,
 a:active {
 	text-decoration-color: #ff7b72;
 }
