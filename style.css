@@ -2,7 +2,7 @@ body {
 	max-width: 650px;
 	margin: 40px auto;
 	padding: 0 40px;
-	background: #0d1117;
+	background-color: #0d1117;
 	color: #e6edf3;
 	font-family: "Noto Serif", serif;
 	font-size: 18px;
@@ -18,37 +18,33 @@ nav ul {
 	list-style: none;
 }
 
-h1,
-h2 {
-	font-weight: 600;
-	line-height: 1.2;
-}
-
 a {
 	color: #e6edf3;
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
-	transition: text-decoration-color 0.2s;
-}
-
-a:link,
-a:visited {
 	text-decoration-color: #3fb950;
+	transition: text-decoration-color 0.2s;
+	cursor: pointer;
 }
 
 a:hover {
 	text-decoration-color: #e6edf3;
 }
 
-section:has(a[href="#contact"]:active) a:link,
-section:has(a[href="#contact"]:active) a:visited,
+body:has(a[href="#sejjy"]:active) a,
+section:has(a[href="#contact"]:active) a,
 a:active {
 	text-decoration-color: #ff7b72;
 }
 
-h1 a:link,
-h2 a:link,
-h3 a:link {
+h1,
+h2 {
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+h1 a,
+h2 a {
 	text-decoration-thickness: 4px;
 }
 
