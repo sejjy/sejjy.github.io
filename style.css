@@ -32,7 +32,7 @@ a:hover {
 }
 
 body:has(a[href="#sejjy"]:active) a,
-section:has(a[href="#contact"]:active) a,
+section:has(a[href="#links"]:active) a,
 a:active {
 	text-decoration-color: #ff7b72;
 }
