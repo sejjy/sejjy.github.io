@@ -31,7 +31,7 @@ a:hover {
 	text-decoration-color: #e6edf3;
 }
 
-body:has(a[href="#"]:active) a,
+body:has(header a[href="#"]:active) a,
 section:has(a[href="#interests"]:active) a,
 section:has(a[href="#links"]:active) a,
 a:active {
