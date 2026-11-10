@@ -62,6 +62,7 @@ th {
 
 td {
 	padding: 4px 0;
+	overflow-wrap: anywhere;
 }
 
 span,
