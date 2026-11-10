@@ -31,10 +31,11 @@ a:hover {
 	text-decoration-color: #e6edf3;
 }
 
-body:has(a[href="#sejjy"]:active) a,
+body:has(a[href="#"]:active) a,
 section:has(a[href="#interests"]:active) a,
 section:has(a[href="#links"]:active) a,
 a:active {
+	margin-left: 1px;
 	text-decoration-color: #ff7b72;
 }
 
