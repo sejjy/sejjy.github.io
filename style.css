@@ -64,6 +64,12 @@ td {
 	padding: 4px 0;
 }
 
+span,
+em {
+	color: #b1bac4;
+	font-size: 16px;
+}
+
 footer {
 	margin-top: 40px;
 	color: #b1bac4;
