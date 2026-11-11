@@ -33,6 +33,27 @@ input:active {
 	transform: rotate(-45deg);
 }
 
+p {
+	transition: all 0.2s;
+}
+
+code {
+	font-family: "Noto Sans Mono", monospace;
+	transition: all 0.2s;
+}
+
+body:has(input:active) header p,
+body:has(a[href="#sejjy"]:active) header p {
+	padding-left: -2px;
+}
+
+body:has(input:active) code,
+body:has(a[href="#sejjy"]:active) code {
+	padding-left: 2px;
+	padding-right: 2px;
+	color: #ff7b72;
+}
+
 a {
 	color: #e6edf3;
 	text-decoration: underline;
@@ -47,11 +68,10 @@ a:hover {
 }
 
 body:has(input:active) a,
-body:has(a[href="#sejjy"]:active) a,
 section:has(a[href="#interests"]:active) a,
 section:has(a[href="#links"]:active) a,
 a:active {
-	margin-left: 2px;
+	padding-left: 2px;
 	text-decoration-color: #ff7b72;
 }
 
