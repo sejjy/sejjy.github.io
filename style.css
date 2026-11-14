@@ -69,7 +69,7 @@ a:hover {
 
 body:has(input:active) a,
 section:has(a[href="#interests"]:active) a,
-section:has(a[href="#links"]:active) a,
+section:has(a[href="#contact"]:active) a,
 a:active {
 	padding-left: 2px;
 	text-decoration-color: #ff7b72;
