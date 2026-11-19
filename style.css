@@ -108,7 +108,18 @@ em {
 }
 
 footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	margin-top: 50px;
-	color: #b1bac4;
 	font-size: 14px;
+}
+
+footer p {
+	margin: 0;
+	color: #b1bac4;
+}
+
+footer a {
+	color: #b1bac4;
 }
